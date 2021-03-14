@@ -4,6 +4,7 @@
       <ul id="navi">
         <li><router-link to="/" exact>Home</router-link></li>
         <li><router-link to="/orders" exact>Orders</router-link></li>
+        <li><router-link to="/dashboard" exact>Dashboard</router-link></li>
       </ul>
       <ul id="itemsList">
         <li v-for="item in items" v-bind:key="item.name">
